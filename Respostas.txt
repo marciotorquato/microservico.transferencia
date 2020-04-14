@@ -1,0 +1,34 @@
+1. EXPLIQUE COM SUAS PALAVRAS O QUE É DOMAIN DRIVEN DESIGN E SUA IMPORTÂNCIA NA ESTRATÉGIA DE DESENVOLVIMENTO DE SOFTWARE.
+
+O DDD se refere ao desenvolvimento de sistema onde o foco principal é o dominio, ou em outras palavras, as régras de negócio.
+Neste tipo de modelagem, o que menos importa, é qual a definição da linguagem de programação ou em como serão as tabelas no banco
+de dados ou em como os dados serão persistidos.
+
+Vejo como principal importancia do DDD no auxilio de criação de microserviços consistentes com o que o negócios precisa, pois microsserviços
+nada mais são do que pequenos dominios, sendo de vital importancia uma boa tradução da complexidade das regras de negócio para dentro dos 
+modelos e dos dominios, pois com estas regras bem escritas, teremos bancos de dados consistentes, facilidade de criação de testes 
+unitarios e melhor definição arquitetural do projeto bem como sua manutenção.
+
+2.EXPLIQUE COM SUAS PALAVRAS O QUE É E COMO FUNCIONA UMA ARQUITETURA BASEADA EM MICROSERVICES. EXPLIQUE GANHOS COM ESTE MODELO 
+E DESAFIOS EM SUA IMPLEMENTAÇÃO.
+
+A arquitetura baseada em microsserviços são basicamente aplicações que precisam abrager partes de dominios dependendo de sua 
+complexidade, diferente dos monoliticos que abragem praticamente um ou mais dominios se tornando totalmente dependentes aumentando 
+ainda mais a complexidade de como mante-los.
+
+Com os microsserviços a ideia é de possuir aplicações independentes e imutaveis visando obter granularidade e maior 
+desempenho, pois as aplicações acabam se tornando mais leves e de facil manutenção.
+Outra vantagem é o fato de conseguirmos conteinerizar esses serviços atravez do Docker e fazer o seu controle de escalabilidade
+e orquestração com o Kubernetes, bem como facilitar detenções de erros quando possuirem a implementação adequada de logs.
+
+3.EXPLIQUE QUAL A DIFERENÇA ENTRE COMUNICAÇÃO SINCRONA E ASSINCRONA E QUAL O MELHOR CENÁRIO PARA UTILIZAR UMA OU OUTRA.
+
+Em chamadas sincronas, o requisitor assim que inciar a sua chamada, precisa aguardar que o serviço sincrono seja concluido para obter resposta
+ja em chamadas assincronas, o requisitor pode fazer uma chamada em uma serviço e enquanto esse serviço não esta concluido, o serviço requisitor
+pode operar outras atividades.
+
+A aplicação de chamadas assincronas esta mais ligada a questões em que a conclusão da requisição nao esteja diretamente ligada ao ciclo de vida 
+do usuario em determinado sistema, como em paginas Web na utilização de Ajax em requisições assincronas, onde uma requisição pode ser iniciada,
+enquanto o usuario ainda consegue interagir com a Pagina, ja no caso de sincronas, esta mais ligada a requisições em que é necessario o termino 
+do processamento para dar sequencia ao fluxo, como por exemplo em operações bancárias, onde é mais critico que a requisição seja concluida 
+para o usuário ter sequencia na utilização.

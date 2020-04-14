@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microservico.Transferencia.Domain\Microservico.Transferencia.Domain.csproj" />
+    <ProjectReference Include="..\Microservico.Transferencia.Repository\Microservico.Transferencia.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

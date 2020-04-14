@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservico.Transferencia.Api", "src\Microservico.Transferencia.Api\Microservico.Transferencia.Api.csproj", "{1AC51067-CDBA-437D-AAC4-AD41BB80D186}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservico.Transferencia.Domain", "src\Microservico.Transferencia.Domain\Microservico.Transferencia.Domain.csproj", "{5E8F5CA0-34CF-43F5-A618-E5D122D86418}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservico.Transferencia.Repository", "src\Microservico.Transferencia.Repository\Microservico.Transferencia.Repository.csproj", "{1D5A8E13-47E9-472D-B2DC-99EEA6D1893C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservico.Transferencia.Service", "src\Microservico.Transferencia.Service\Microservico.Transferencia.Service.csproj", "{24F3C540-20EF-4EF7-A344-33CCC3C52270}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservico.Transferencia.Test", "src\Microservico.Transferencia.Test\Microservico.Transferencia.Test.csproj", "{028F6A3F-6C59-4877-815F-121E19697BDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{715750A6-017A-4BFC-BB8E-693AFA544B20}"
+	ProjectSection(SolutionItems) = preProject
+		Respostas.txt = Respostas.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AC51067-CDBA-437D-AAC4-AD41BB80D186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC51067-CDBA-437D-AAC4-AD41BB80D186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC51067-CDBA-437D-AAC4-AD41BB80D186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC51067-CDBA-437D-AAC4-AD41BB80D186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E8F5CA0-34CF-43F5-A618-E5D122D86418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E8F5CA0-34CF-43F5-A618-E5D122D86418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E8F5CA0-34CF-43F5-A618-E5D122D86418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E8F5CA0-34CF-43F5-A618-E5D122D86418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D5A8E13-47E9-472D-B2DC-99EEA6D1893C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5A8E13-47E9-472D-B2DC-99EEA6D1893C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5A8E13-47E9-472D-B2DC-99EEA6D1893C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5A8E13-47E9-472D-B2DC-99EEA6D1893C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F3C540-20EF-4EF7-A344-33CCC3C52270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F3C540-20EF-4EF7-A344-33CCC3C52270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F3C540-20EF-4EF7-A344-33CCC3C52270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F3C540-20EF-4EF7-A344-33CCC3C52270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{028F6A3F-6C59-4877-815F-121E19697BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028F6A3F-6C59-4877-815F-121E19697BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028F6A3F-6C59-4877-815F-121E19697BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028F6A3F-6C59-4877-815F-121E19697BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CEED578-D343-4D4C-8AB5-1A5CA9F7F7D9}
+	EndGlobalSection
+EndGlobal
